@@ -1,0 +1,655 @@
+body{
+    margin: 0;
+    background-image: url(asset/background\ image\ wall.png);
+}
+
+#header {
+    background-color: rgba(61, 58, 58, 0.5);
+    border: solid;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.logo > img {
+    width: 100px;
+    height: 100;
+    margin-top: 20px;
+}
+
+#DANBAM {
+    color: white;
+    font-family: 'Monoton';
+    margin-top: 32px;
+    font-size: 30px;
+}
+
+.navbar {
+    padding: 20px;
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    margin-right: 100px;
+}
+.home {
+    margin-left: 700px;
+    
+
+}
+
+.home > a{
+text-decoration: none;
+font-weight: bold;
+color: white;
+}
+.menu1{
+    margin-left: 20px;
+}
+.menu {
+    margin-left: 20px;
+    background-image: url(asset/background\ image.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.menu1 > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.about {
+    margin-left: 15px;
+}
+
+.about > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.mid {
+    background-image: url(asset/HONEY_NEW.jpg);
+}
+
+.mid-3 {
+    margin-bottom: 100px;
+}
+
+#location1 {
+    display: flex;
+    flex-direction: row;
+}
+
+#location2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.text-1 > img {
+  height: 600px;
+  width: 900px;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.text-2 {
+    font-size: 20px;
+    color: white;
+    margin-left: 130px;
+    font-family: 'Odibee Sans';
+    font-size: 25px;
+    
+}
+
+.text-2-2 {
+    font-size: 20px;
+    color: white;
+    margin-left: 80px;
+}
+
+.text-3 {
+    font-size: 20px;
+    color: white;
+    margin-left: 250px;
+    font-family: 'Odibee Sans';
+    font-size: 25px;
+}
+
+.text-3-3 {
+    font-size: 20px;
+    color: white;
+    margin-left: 60px;
+}
+
+.text-4 {
+    font-size: 20px;
+    color: white;
+    margin-left: 380px;
+    font-family: 'Odibee Sans';
+}
+
+.text-4-4 {
+    margin-left: 80px;
+}
+
+/* .text-1 > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+} */
+
+
+h1 {
+    color: white;
+    margin-left: 400px;
+    margin-top: 100px;
+    font-family: 'Odibee Sans';
+    font-size: 70px;
+}
+
+.jkt > h1 { 
+    margin-right: 200px;
+    color: white;
+    margin-left: 200px;
+    font-family: 'Odibee Sans';
+    font-size: 45px;
+}
+
+.bdg > h1 {
+    margin-right: 120px;
+    margin-left: 180px;
+    font-size: 45px;
+}
+
+.dpk > h1 {
+    font-size: 45px;
+    margin-right: 200px;
+    margin-left: 450px;
+}
+
+
+#socmed {
+    display: flex;
+    flex-direction: row;
+}
+
+footer {
+    background-color: #313131;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+}
+.twitter > img {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 60px
+}
+
+.facebook > img {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 60px
+}
+
+.ig > img {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 60px
+}
+.logo2 > img {
+    margin-top: 20px;
+    height: 80px;
+   
+
+}
+.logo2 {
+    padding: 20px;
+
+    display: flex;
+    flex-direction: row;
+
+    
+
+}
+.danbam-logo {
+    color: white ;
+    margin-top: 40px;
+    font-family: 'Monoton';
+    font-size: 30px;
+}
+
+.socmed {
+    margin-left: 650px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    color: white;
+}
+
+.contact-person{
+    margin-left: 300px;
+    margin-bottom: 20px;
+}
+
+.contact {
+    color: white;
+}
+/* footer{
+    display: flex: ;
+    flex-direction: row;
+} */
+.food{
+    color: white;
+    font-weight: bold;
+}
+.food-menu {
+    display: flex;
+    flex-direction: row;
+    
+}
+.topoki > img {
+    width: 200px;
+    height: 200px;
+   
+}
+.price-food{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(39, 39, 39,0.6);
+    opacity: 0;
+    width: 200px;
+    height: 200px;
+    transition: 2s;
+    cursor: pointer;
+    margin-top: 172px;
+    margin-left: 20px;
+
+
+}
+.topoki-title > p {
+    margin-left: 55px;
+    font-weight: bold;
+}
+.price-food > h3{
+    padding-top: 50px;
+    margin-left: 50px;
+}
+
+.price-food > p {
+    font-weight: bolder;
+    margin-left: 50px;
+}
+.topoki:hover > .price-food {
+    opacity: 1;
+}
+
+.price-food2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(39, 39, 39,0.6);
+    opacity: 0;
+    width: 200px;
+    height: 200px;
+    transition: 2s;
+    cursor: pointer;
+    margin-top: 172px;
+    margin-left: 290px;
+
+
+}
+.price-food2 > h3{
+    padding-top: 50px;
+    margin-left: 45px;
+}
+
+.price-food2 > p {
+ 
+    margin-left: 60px;
+}
+
+.jajang:hover > .price-food2 {
+    opacity: 1 ;
+}
+.jajang-title > p {
+    margin-left: 120px;
+    font-weight: bold;
+}
+
+.jajang > img {
+    width: 200px;
+    height: 200px;
+    margin-left: 70px;
+}
+.jajang > p {
+    margin-left:125px;
+}
+
+.price-food3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(39, 39, 39,0.6);
+    opacity: 0;
+    width: 200px;
+    height: 200px;
+    transition: 2s;
+    cursor: pointer;
+    margin-top: 172px;
+    margin-left: 560px;
+
+
+}
+.price-food3 > h3{
+    padding-top: 50px;
+    margin-left: 60px;
+}
+
+.price-food3 > p {
+ 
+    margin-left: 60px;
+}
+
+.ramyon:hover > .price-food3 {
+    opacity: 1 ;
+}
+
+.ramyon-title > p {
+    margin-left: 150px;
+    font-weight: bold;
+}
+.ramyon > img {
+    width: 200px;
+    height: 200px;
+    margin-left: 70px;
+}
+
+.ramyon > p {
+    margin-left: 150px;
+}
+
+
+.drink{
+    color: white;
+}
+.drink-menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.price-drink{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(39, 39, 39,0.6);
+    opacity: 0;
+    width: 200px;
+    height: 200px;
+    transition: 2s;
+    cursor: pointer;
+    margin-top: 494px;
+    margin-left: 20px;
+
+
+}
+
+.price-drink > h3{
+    padding-top: 50px;
+    margin-left: 80px;
+}
+
+.price-drink > p {
+ 
+    margin-left: 60px;
+}
+
+.soju:hover > .price-drink {
+    opacity: 1 ;
+}
+
+.soju-title {
+    margin-left: 80px;
+    font-weight: bold;
+}
+
+.soju > img {
+    width: 200px;
+    height: 200px;
+}
+
+.soju > p {
+    margin-left: 80px;
+}
+
+.price-drink2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(39, 39, 39,0.6);
+    opacity: 0;
+    width: 200px;
+    height: 200px;
+    transition: 2s;
+    cursor: pointer;
+    margin-top: 494px;
+    margin-left: 290px;
+
+
+}
+.price-drink2 > h3{
+    padding-top: 50px;
+    margin-left: 80px;
+}
+
+.price-drink2 > p {
+ 
+    margin-left: 60px;
+}
+
+.beer:hover > .price-drink2 {
+    opacity: 1 ;
+}
+
+.beer-title > p{
+    margin-left: 160px;
+    font-weight: bold;
+}
+
+.beer > img {
+    width: 200px;
+    height: 200px;
+    margin-left: 70px;
+}
+
+.beer > p {
+    margin-left: 155px;
+}
+
+.price-drink3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(39, 39, 39,0.6);
+    opacity: 0;
+    width: 200px;
+    height: 200px;
+    transition: 2s;
+    cursor: pointer;
+    margin-top: 494px;
+    margin-left: 560px;
+
+
+}
+.price-drink3 > h3{
+    padding-top: 50px;
+    margin-left: 80px;
+}
+
+.price-drink3 > p {
+ 
+    margin-left: 60px;
+}
+
+.cola:hover > .price-drink3 {
+    opacity: 1 ;
+}
+
+.cola-title > p {
+    margin-left: 160px;
+    font-weight: bold;
+}
+
+ .cola > img {
+    width: 200px;
+    height: 200px;
+    margin-left: 70px;
+    
+ }
+
+ .cola > p {
+    margin-left: 160px;
+ }
+
+ .dessert {
+     color: white;
+ }
+ .dessert-menu {
+    display: flex;
+    flex-direction: row;
+ }
+
+ .price-dessert{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(39, 39, 39,0.6);
+    opacity: 0;
+    width: 200px;
+    height: 200px;
+    transition: 2s;
+    cursor: pointer;
+    margin-top: 815px;
+    margin-left: 20px;
+
+
+}
+.price-dessert > h3{
+    padding-top: 50px;
+    margin-left: 50px;
+}
+
+.price-dessert > p {
+ 
+    margin-left: 60px;
+}
+
+.fish:hover > .price-dessert {
+    opacity: 1 ;
+}
+
+.fish-title > p {
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+ .fish > img {
+    width: 200px;
+    height: 200px;
+ }
+
+ .fish > p {
+     margin-left: 50px;
+ }
+
+ .price-dessert2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(39, 39, 39,0.6);
+    opacity: 0;
+    width: 200px;
+    height: 200px;
+    transition: 2s;
+    cursor: pointer;
+    margin-top: 815px;
+    margin-left: 290px;
+}
+
+.price-dessert2 > h3{
+    padding-top: 50px;
+    margin-left: 80px;
+}
+
+.price-dessert2 > p {
+    margin-left: 60px;
+}
+
+.cake:hover > .price-dessert2 {
+    opacity: 1 ;
+}
+
+.cake-title{
+    margin-left: 160px;
+    font-weight: bold;
+}
+
+.cake > img {
+    width: 200px;
+    height: 200px;
+    margin-left: 70px;
+}
+
+ .cake > p {
+     margin-left: 150px;
+}
+
+.price-dessert3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(39, 39, 39,0.6);
+    opacity: 0;
+    width: 200px;
+    height: 200px;
+    transition: 2s;
+    cursor: pointer;
+    margin-top: 815px;
+    margin-left: 560px;
+}
+
+.price-dessert3 > h3{
+    padding-top: 50px;
+    margin-left: 60px;
+}
+
+.price-dessert3 > p {
+ 
+    margin-left: 60px;
+}
+
+.macaroon:hover > .price-dessert3 {
+    opacity: 1 ;
+}
+
+.macaroon-title > p {
+    margin-left: 140px;
+    font-weight: bold;
+}
+
+.macaroon > img {
+    width: 200px;
+    height: 200px;
+    margin-left: 70px;
+}
+
+.macaroon > p {
+     margin-left: 140px;
+}

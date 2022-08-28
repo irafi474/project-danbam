@@ -1,0 +1,300 @@
+
+.content-1{
+    padding: 70px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    background-image: url(asset/background\ image\ wall.png);
+}
+
+.image-content1 > img {
+    width: 450px;
+    height: 300px;
+    margin-top: 20px;
+    object-fit: cover;
+}
+.text-content1{
+    font-size: 10px;
+    font-weight: bold;
+    font: icon;
+    margin-left: 20px;
+    justify-content: center;
+    color: white;
+}
+body{
+    margin: 0;
+    background-image: url(asset/background\ image\ wall.png);
+}
+
+#header {
+    background-color: rgba(61, 58, 58, 0.5);
+    border: solid;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.logo > img {
+    width: 100px;
+    height: 100;
+    margin-top: 20px;
+}
+
+#DANBAM {
+    color: white;
+    font-family: 'Monoton';
+    margin-top: 32px;
+    font-size: 30px;
+}
+
+.navbar {
+    padding: 20px;
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    margin-right: 100px;
+}
+.home {
+    margin-left: 700px;
+    
+
+}
+
+.home > a{
+text-decoration: none;
+font-weight: bold;
+color: white;
+}
+
+.menu {
+    margin-left: 20px;
+}
+
+.menu > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.about {
+    margin-left: 15px;
+}
+
+.about > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.mid {
+    background-image: url(asset/HONEY_NEW.jpg);
+}
+
+.mid-3 {
+    margin-bottom: 100px;
+}
+
+#location1 {
+    display: flex;
+    flex-direction: row;
+}
+
+#location2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.text-1 > img {
+  height: 600px;
+  width: 900px;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.text-2 {
+    font-size: 20px;
+    color: white;
+    margin-left: 130px;
+    font-family: 'Odibee Sans';
+    font-size: 25px;
+    
+}
+
+.text-2-2 {
+    font-size: 20px;
+    color: white;
+    margin-left: 80px;
+}
+
+.text-3 {
+    font-size: 20px;
+    color: white;
+    margin-left: 250px;
+    font-family: 'Odibee Sans';
+    font-size: 25px;
+}
+
+.text-3-3 {
+    font-size: 20px;
+    color: white;
+    margin-left: 60px;
+}
+
+.text-4 {
+    font-size: 20px;
+    color: white;
+    margin-left: 380px;
+    font-family: 'Odibee Sans';
+}
+
+.text-4-4 {
+    margin-left: 80px;
+}
+
+/* .text-1 > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+} */
+
+
+h1 {
+    color: white;
+    margin-left: 400px;
+    margin-top: 100px;
+    font-family: 'Odibee Sans';
+    font-size: 70px;
+}
+
+.jkt > h1 { 
+    margin-right: 200px;
+    color: white;
+    margin-left: 200px;
+    font-family: 'Odibee Sans';
+    font-size: 45px;
+}
+
+.bdg > h1 {
+    margin-right: 120px;
+    margin-left: 180px;
+    font-size: 45px;
+}
+
+.dpk > h1 {
+    font-size: 45px;
+    margin-right: 200px;
+    margin-left: 450px;
+}
+
+
+#socmed {
+    display: flex;
+    flex-direction: row;
+}
+
+footer {
+    background-color: #313131;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+}
+.twitter > img {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 60px
+}
+
+.facebook > img {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 60px
+}
+
+.ig > img {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 60px
+}
+.logo2 > img {
+    margin-top: 20px;
+    height: 80px;
+   
+
+}
+.logo2 {
+    padding: 20px;
+
+    display: flex;
+    flex-direction: row;
+
+    
+
+}
+.danbam-logo {
+    color: white ;
+    margin-top: 40px;
+    font-family: 'Monoton';
+    font-size: 30px;
+}
+
+.socmed {
+    margin-left: 650px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    color: white;
+}
+
+.contact-person{
+    margin-left: 300px;
+    margin-bottom: 20px;
+}
+
+.contact {
+    color: white;
+}
+/* footer{
+    display: flex: ;
+    flex-direction: row;
+} */
+
+/* .image-content2 > img {
+    width: ;
+} */
+
+/* .content-2 {
+    background-image: url(asset/BACGROUNDWALL2.png);
+} */
+
+.image-content2 > img {
+    width: 450px;
+    height: 300px;
+    margin-left: 90px;
+    margin-bottom: 50px;
+    
+}
+
+.text-content2{
+    font-size: 10px;
+    font-weight: bold;
+    font: icon;
+    margin-left: 20px;
+    justify-content: right;
+    color: white;
+    text-align: left;
+}
+.content-2{
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+}
